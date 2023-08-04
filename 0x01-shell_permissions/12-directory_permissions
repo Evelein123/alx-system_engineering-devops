@@ -1,2 +1,2 @@
-#!/bin/bash,import os ,path = "./my_dir"
-os.mkdir(path),os.chmod(path, 0o751)
+#!/bin/bash, mkdir my_dir
+chmod 751 my_dir
