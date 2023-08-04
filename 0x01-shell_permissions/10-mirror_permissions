@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Get the mode of "olleh" file
+mode=$(stat -c "%a" olleh)
+
+# Set the mode of "hello" file
+chmod $mode hello
+
+# Verify the updated permissions
+ls -l hello
