@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -rl '^#!/bin/bash' . | xargs ls -l
+ls
