@@ -1,4 +1,2 @@
-import os
-path = "./my_dir"
-os.mkdir(path)
-os.chmod(path, 0o751)
+import os ,path = "./my_dir"
+os.mkdir(path),os.chmod(path, 0o751)
